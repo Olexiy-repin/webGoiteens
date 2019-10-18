@@ -1,0 +1,22 @@
+.footer {
+  padding: 2rem 0;
+}
+
+.main-form {
+  &_footer {
+    background-color: #d24a43;
+  }
+
+  &__title_footer {
+    color: #fff;
+  }
+
+  &__description_footer {
+    color: #fff;
+  }
+
+  &__btn_footer {
+    background-color: #000;
+    border-color: rgba(256, 256, 256, 0.5);
+  }
+}

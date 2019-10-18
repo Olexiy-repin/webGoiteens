@@ -1,0 +1,44 @@
+.about-webinar {
+  padding: 2rem 0;
+
+  &__left-content {
+    @media (max-width: 1043px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__content-title {
+    font-family: "GothamU", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  &__content-description {
+    font-family: "GothamR", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+
+    &:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__content-list {
+    padding-right: 2rem;
+  }
+
+  &__content-list-item {
+    font-family: "GothamR", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+
+    &:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.main-form_about {
+  margin-bottom: 2rem;
+}

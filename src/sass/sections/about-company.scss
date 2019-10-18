@@ -1,0 +1,45 @@
+.about-company {
+  padding: 2rem 0;
+
+  &__title {
+    font-family: "GothamU", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -.6px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+.awards {
+  margin-bottom: 1.5rem;
+
+  &__description {
+    font-family: "GothamR", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  &__images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img {
+    width: 30%;
+  }
+}
+
+.childs {
+  &__description {
+    font-family: "GothamR", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: .5rem;
+  }
+
+  &__img {
+    margin: 0 auto;
+  }
+}
