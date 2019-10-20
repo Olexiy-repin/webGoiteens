@@ -1,5 +1,6 @@
 .about-company {
   padding: 2rem 0;
+  padding-bottom: 3rem;
 
   &__title {
     font-family: "GothamU", sans-serif;
@@ -37,10 +38,107 @@
     font-family: "GothamR", sans-serif;
     font-size: 1rem;
     line-height: 1.4;
-    margin-bottom: .5rem;
+
+    &:not(:last-of-type) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  &__content-text {
+    margin-bottom: 1.5rem;
   }
 
   &__img {
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-company {
+    &__title {
+      font-size: 1.75rem;
+      letter-spacing: 0;
+    }
+  }
+
+  .awards {
+    margin-bottom: 2rem;
+
+    &__description {
+      font-size: 1.125rem;
+    }
+  }
+
+  .childs {
+    &__description {
+      font-size: 1.125rem;
+    }
+
+    &__img {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: 1044px) {
+  .about-company {
+    padding-top: 2.6rem;
+
+    &__title {
+      font-size: 3.625rem;
+      text-transform: unset;
+      letter-spacing: 1px;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .awards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.9rem;
+
+    &__description {
+      font-size: 1.5rem;
+      width: 504px;
+      line-height: 1.25;
+      letter-spacing: 1px;
+    }
+
+    &__images {
+      justify-content: space-between;
+      width: 28.75rem;
+    }
+
+    &__img {
+      width: auto;
+    }
+  }
+
+  .childs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    &__content-text {
+      width: 452px;
+    }
+
+    &__description {
+      font-size: 1.5rem;
+      line-height: 1.25;
+
+      &:not(:last-of-type) {
+        margin-bottom: 1.9rem;
+      }
+    }
+
+    &__content-text {
+      margin-bottom: 0;
+    }
+
+    &__img {
+      margin: 0;
+    }
   }
 }

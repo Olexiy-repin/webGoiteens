@@ -511,13 +511,6 @@ a {
   background-color: #f9f9f9;
 }
 
-.logotype {
-  font-family: "GothamU", sans-serif;
-  color: #000;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-}
-
 .header__subtitle {
   font-family: "GothamR", sans-serif;
   font-size: 1rem;
@@ -532,6 +525,13 @@ a {
   line-height: 1.2;
   margin-bottom: 2rem;
   width: 12.5rem;
+}
+
+.logotype {
+  font-family: "GothamU", sans-serif;
+  color: #000;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .container_header {
@@ -582,6 +582,7 @@ a {
 
 .about-company {
   padding: 2rem 0;
+  padding-bottom: 3rem;
 }
 
 .about-company__title {
@@ -617,7 +618,14 @@ a {
   font-family: "GothamR", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
+}
+
+.childs__description:not(:last-of-type) {
   margin-bottom: .5rem;
+}
+
+.childs__content-text {
+  margin-bottom: 1.5rem;
 }
 
 .childs__img {
@@ -625,7 +633,8 @@ a {
 }
 
 .footer {
-  padding: 2rem 0;
+  padding: 2.3rem 0;
+  padding-top: 4.4rem;
 }
 
 .main-form_footer {
@@ -649,11 +658,265 @@ a {
   .container {
     width: 680px;
   }
+
+  .main-form__title {
+    font-size: 1.75rem;
+  }
+
+  .main-form__description {
+    font-size: 1.25rem;
+  }
+
+  .header {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .header__subtitle {
+    font-size: 24px;
+    width: 20.375rem;
+  }
+
+  .header__title {
+    font-size: 3rem;
+    width: 20.375rem;
+  }
+
+  .logotype {
+    font-size: 2rem;
+  }
+
+  .modal-btn_header {
+    width: 22.5rem;
+    height: 3.75rem;
+  }
+
+  .container_header {
+    background-size: 26%;
+    background-position: right 2.5rem bottom;
+    min-height: 28.75rem;
+  }
+
+  .about-webinar__content-title {
+    font-size: 1.75rem;
+  }
+
+  .about-webinar__content-description {
+    font-size: 1.125rem;
+  }
+
+  .about-webinar__content-list-item {
+    font-size: 1.125rem;
+  }
+
+  .about-company__title {
+    font-size: 1.75rem;
+    letter-spacing: 0;
+  }
+
+  .awards {
+    margin-bottom: 2rem;
+  }
+
+  .awards__description {
+    font-size: 1.125rem;
+  }
+
+  .childs__description {
+    font-size: 1.125rem;
+  }
+
+  .childs__img {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1000px) {
   .container {
     width: 1000px;
+  }
+}
+
+@media (min-width: 1044px) {
+  .main-form {
+    border-width: 6px;
+    padding: 1.9rem 2.9rem;
+    margin-bottom: 5.7rem;
+  }
+
+  .main-form__title {
+    font-size: 2.25rem;
+    margin-bottom: .8rem;
+  }
+
+  .main-form__description {
+    font-size: 1rem;
+    letter-spacing: .6px;
+    margin-bottom: 2.5rem;
+  }
+
+  .main-form__controls {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-form__input {
+    width: 12.125rem;
+    margin: 0;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+  }
+
+  .main-form__btn {
+    width: 11.375rem;
+    height: 3.625rem;
+    font-size: 0.875rem;
+  }
+
+  .header {
+    height: 48.375rem;
+    padding-top: 1.3rem;
+    background-image: url("../images/header/bg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 770px;
+    padding-bottom: 0;
+    background-color: transparent;
+  }
+
+  .header__content {
+    width: 33rem;
+    margin-left: 21.1rem;
+  }
+
+  .header__title {
+    width: auto;
+    font-size: 4.625rem;
+    letter-spacing: 2.8px;
+    margin-bottom: 4.3rem;
+  }
+
+  .header__subtitle {
+    width: auto;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    margin-bottom: 1.5rem;
+  }
+
+  .logotype {
+    text-align: right;
+    font-size: 2.25rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .container_header {
+    height: 100%;
+    background-position: left 14px top;
+    background-size: auto;
+  }
+
+  .modal-btn_header {
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 6.375rem;
+  }
+
+  .about-webinar {
+    padding-top: 4.5rem;
+  }
+
+  .about-webinar__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-webinar__left-content {
+    width: 30rem;
+  }
+
+  .about-webinar__right-content {
+    width: 27.75rem;
+  }
+
+  .about-webinar__content-title {
+    letter-spacing: 1.1px;
+    margin-bottom: 3.4rem;
+  }
+
+  .about-webinar__content-description {
+    font-size: 1.25rem;
+    letter-spacing: .9px;
+    line-height: 1.25;
+  }
+
+  .about-webinar__content-description:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-webinar__content-list-item {
+    font-size: 1.25rem;
+  }
+
+  .about-company {
+    padding-top: 2.6rem;
+  }
+
+  .about-company__title {
+    font-size: 3.625rem;
+    text-transform: unset;
+    letter-spacing: 1px;
+    margin-bottom: 3.5rem;
+  }
+
+  .awards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.9rem;
+  }
+
+  .awards__description {
+    font-size: 1.5rem;
+    width: 504px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+  }
+
+  .awards__images {
+    justify-content: space-between;
+    width: 28.75rem;
+  }
+
+  .awards__img {
+    width: auto;
+  }
+
+  .childs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .childs__content-text {
+    width: 452px;
+  }
+
+  .childs__description {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  .childs__description:not(:last-of-type) {
+    margin-bottom: 1.9rem;
+  }
+
+  .childs__content-text {
+    margin-bottom: 0;
+  }
+
+  .childs__img {
+    margin: 0;
   }
 }
 
